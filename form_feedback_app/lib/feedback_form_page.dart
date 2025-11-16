@@ -32,7 +32,7 @@ class _FeedbackFormPageState extends State<FeedbackFormPage> {
                 decoration: InputDecoration(
                   hintText: 'Masukkan nama Anda',
                   filled: true,
-                  fillColor: const Color.fromARGB(255, 45, 140, 196),
+                  fillColor: const Color.fromARGB(255, 108, 170, 206),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
