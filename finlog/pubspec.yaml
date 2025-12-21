@@ -1,0 +1,52 @@
+name: finlog
+description: Aplikasi manajemen keuangan FinLog (Proyek Akhir UAS Pemrograman Mobile)
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- WAJIB B: State Management ---
+  provider: ^6.1.1
+
+  # --- WAJIB E: Firebase Services (CRUD) ---
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+
+  # --- WAJIB C: Koneksi REST API ---
+  http: ^1.1.0
+
+  # --- WAJIB D: Local Storage ---
+  shared_preferences: ^2.2.2
+
+  # --- Utilities & UI Components ---
+  intl: ^0.19.0
+  pie_chart: ^5.3.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # --- Launcher Icon ---
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/finlog_logo.png
+    - assets/icon/icon.png
+
+# --- Konfigurasi Launcher Icon ---
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
